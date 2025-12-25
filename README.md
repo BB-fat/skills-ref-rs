@@ -4,6 +4,16 @@ Rust implementation of [agentskills](https://github.com/agentskills/agentskills)
 
 ## Installation
 
+### As a CLI tool
+
+```bash
+cargo install skills-ref-rs
+```
+
+This installs the `skills-ref` command.
+
+### As a library
+
 ```bash
 cargo add skills-ref-rs
 ```
@@ -12,13 +22,13 @@ cargo add skills-ref-rs
 
 ```bash
 # Validate a skill directory
-skills-ref-rs validate ./my-skill
+skills-ref validate ./my-skill
 
 # Read properties as JSON
-skills-ref-rs read-properties ./my-skill
+skills-ref read-properties ./my-skill
 
 # Generate XML prompt block
-skills-ref-rs to-prompt ./skill-a ./skill-b
+skills-ref to-prompt ./skill-a ./skill-b
 ```
 
 ## Library Usage
